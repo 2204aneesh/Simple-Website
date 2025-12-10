@@ -1,3 +1,4 @@
 if(window.innerWidth < 768){
-    alert(`For the best experience,please switch to desktop mode.`);
+    alert(`Sorry! This site works best on laptops and might not look perfect on mobile.`);
+
 }
