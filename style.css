@@ -59,7 +59,7 @@ a{
 #dcbt{
 
     margin-top: 40px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 /*calculator css*/
@@ -76,7 +76,7 @@ a{
 }
 #calbt{
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 /*temperature css*/
@@ -94,7 +94,8 @@ a{
 #tempbt{
 
     margin-top: 50px;
-    margin-left: 60px;
+    margin-left: 20px;
 }
+
 
 
