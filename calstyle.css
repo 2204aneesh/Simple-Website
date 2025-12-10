@@ -14,12 +14,12 @@ body{
     height: 90vh;
 }
 #back{
-    font-size: 28px;
+    font-size: 25px;
     margin-top: 50px;
     margin-left: 300px;
     color: white;
     position: fixed;
-    border-radius: 6px;
+    border-radius: 10px;
     border-style: solid;
     border-width: 3px;
     box-shadow: 1px 1px 10px blueviolet;
@@ -86,6 +86,7 @@ a{
 #opBut:active{
     background-color: hsl(27, 100%, 50%);
 }
+
 
 
 
