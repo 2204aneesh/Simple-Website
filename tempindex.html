@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature</title>
+    <link rel="icon" type="image/svg" href="/ar-symbol.svg">
+    <link rel="stylesheet" href="tempstyle.css">
+</head>
+<body>
+    <button id="back"><a href="index.html">Back</a></button>
+    <form>
+        <h1>Temperature Convertor:</h1>
+        <input type="number" id="value" value="0"><br>
+   
+        <input type="radio" name="unit" id="toFah">
+        <label for="toFah">Celsius ➡ Fahrenheit</label><br>
+   
+        <input type="radio" name="unit" id="toCelsius">  
+        <label for="toCelsius">Fahrenheit ➡ Celsius</label><br>
+
+        <button  id="submit" type="button" onclick="convert()">SUBMIT</button><br>
+        <p id="result"></p>
+    </form>
+    <script src="tempindex.js"></script>
+</body>
+</html>

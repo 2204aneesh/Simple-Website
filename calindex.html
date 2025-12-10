@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="icon" type="image/svg" href="/ar-symbol.svg">
+    <link rel="stylesheet" href="calstyle.css">
+</head>
+<body>
+    <button id="back"><a href="index.html">Back</a></button>
+    <div id="form">
+        <div id="cals">
+            <input id="disp" readonly>
+            <div id="key">
+                <button class="button" onclick="dispBut('7')">7</button>
+                <button class="button" onclick="dispBut('8')">8</button>
+                <button class="button" onclick="dispBut('9')">9</button>
+                <button class="button" onclick="dispBut('/')" id="opBut">/</button>
+                <button class="button" onclick="dispBut('4')">4</button>
+                <button class="button" onclick="dispBut('5')">5</button>
+                <button class="button" onclick="dispBut('6')">6</button>
+                <button class="button" onclick="dispBut('*')" id="opBut">x</button>
+                <button class="button" onclick="dispBut('1')">1</button>
+                <button class="button" onclick="dispBut('2')">2</button>
+                <button class="button" onclick="dispBut('3')">3</button>
+                <button class="button" onclick="dispBut('-')" id="opBut">-</button>
+                <button class="button" onclick="clearDisp()">C</button>
+                <button class="button" onclick="dispBut('0')">0</button>
+                <button class="button" onclick="dispBut('.')">.</button>
+                <button class="button" onclick="dispBut('+')" id="opBut">+</button>
+                <button class="button" onclick="calculate()" id="opBut">=</button>
+            
+            </div>
+        </div>
+    <div>
+    <script   src="calindex.js"></script>
+</body>
+</html>
