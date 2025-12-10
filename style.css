@@ -75,8 +75,8 @@ a{
     border-radius: 40px;
 }
 #calbt{
-    margin-top: 50px;
-    margin-left: 40px;
+    margin-top: 40px;
+    margin-left: 35px;
 }
 
 /*temperature css*/
@@ -93,9 +93,10 @@ a{
 }
 #tempbt{
 
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: 50px;
 }
+
 
 
 
