@@ -18,7 +18,7 @@ h1{
     justify-content: center;   /* Centers horizontally */
     align-items: center;       /* Centers vertically if height set */
     gap: 20px;                 /* Space between images */
-    margin-top: 200px;
+    margin-top: 140px;
     
 }
 button{
@@ -96,4 +96,5 @@ a{
     margin-top: 50px;
     margin-left: 60px;
 }
+
 
