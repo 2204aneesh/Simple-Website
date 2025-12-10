@@ -14,7 +14,7 @@ a{
 }
 #back{
     font-size: 28px;
-    margin-left: 860px;
+    margin-left: 800px;
     margin-top: 100px;
     color: rgb(255, 255, 255);
     border-radius: 6px;
@@ -78,3 +78,4 @@ label{
 #submit:active{
     background-color: #ff0000;
 }
+
