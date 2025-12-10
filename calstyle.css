@@ -16,7 +16,7 @@ body{
 #back{
     font-size: 28px;
     margin-top: 50px;
-    margin-left: 870px;
+    margin-left: 400px;
     color: white;
     position: fixed;
     border-radius: 6px;
@@ -86,4 +86,5 @@ a{
 #opBut:active{
     background-color: hsl(27, 100%, 50%);
 }
+
 
